@@ -22,7 +22,7 @@ static int InitNumberByUser()
 
     while (true)
     {
-        Console.WriteLine("Введите число: ");
+        Console.Write("Введите число: ");
 
         try
         {

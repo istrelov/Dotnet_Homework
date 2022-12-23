@@ -15,7 +15,7 @@ static int  InitNumberByUser()
 
     while (true)
     {
-        Console.WriteLine("Введите трехзначное число: ");
+        Console.Write("Введите трехзначное число: ");
 
         try
         {

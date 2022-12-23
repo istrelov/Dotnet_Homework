@@ -8,7 +8,7 @@ int index = 1;
 
 if (LastNumb < index)
 {
-    Console.WriteLine("Число должно быть больше или равно 1");
+    Console.Write("Число должно быть больше или равно 1");
 }
 else
 {
