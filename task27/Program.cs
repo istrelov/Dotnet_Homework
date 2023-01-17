@@ -8,7 +8,7 @@ Console.Clear();
 
 int UserNumber = InitUserNumber("Введите целое число: ", "Ошибка ввода числа");
 int SumResult = SumResultUserNumber(UserNumber);
-Console.WriteLine($"{UserNumber} -> {SumResult}");
+PrintResult(UserNumber, SumResult);
 
 //-----------------Описание методов --------------------
 
