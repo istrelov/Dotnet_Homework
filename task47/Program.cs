@@ -7,6 +7,7 @@ int colums = GetUserNumber("Введите значение колонок ", "�
 float [,] array = GetNewUserArray(rows, colums, -9, 9);
 
 PrintArray(array);
+
 //-----------------Описание методов --------------------
 
 int GetUserNumber(string Mess, string ErrorMess)
