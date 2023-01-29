@@ -2,8 +2,8 @@
 
 // --------------Начало программы ----------------------
 
-int rows = GetUserNumber("Введите значение m ", "Ошибка ввода");
-int colums = GetUserNumber("Введите значение n ", "Ошибка ввода");
+int rows = GetUserNumber("Введите значение строк ", "Ошибка ввода");
+int colums = GetUserNumber("Введите значение колонок ", "Ошибка ввода");
 float [,] array = GetNewUserArray(rows, colums, -9, 9);
 
 PrintArray(array);
