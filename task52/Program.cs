@@ -74,6 +74,8 @@ float[] AverageArray(int[,] arr)
         }
 
         resarr[col] = (sum / (float)countcolarr);
+        resarr[col] = (float)Math.Round(resarr[col], 2);
+       
     }
 
     return resarr;
